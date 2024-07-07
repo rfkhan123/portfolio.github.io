@@ -25,7 +25,7 @@
  Efficient content delivery in social media apps is crucial for user experience. Algorithms like A*, Dijkstra's, and Kruskal's optimize content delivery paths, database queries, and network design, ensuring quick, relevant, and cost-effective content access. 
 
 ### A* Algorithm
-The[A* algorithm](https://github.com/rfkhan123/portfolio.github.io/blob/main/Algorithm_Implementations/A_star.cpp) is used for finding the shortest path in a weighted graph, which can be useful in optimizing content delivery networks (CDNs) and data retrieval.
+The [A* algorithm](https://github.com/rfkhan123/portfolio.github.io/blob/main/Algorithm_Implementations/A_star.cpp) is used for finding the shortest path in a weighted graph, which can be useful in optimizing content delivery networks (CDNs) and data retrieval.
 
 ### Dijkstra's Algorithm
 [Dijkstra's algorithm](https://github.com/rfkhan123/portfolio.github.io/blob/main/Algorithm_Implementations/Dijkstra.cpp)  is another shortest-path algorithm that finds the minimum distance between nodes in a graph. It can be particularly useful for optimizing data storage and retrieval in databases. 
@@ -58,7 +58,7 @@ The[A* algorithm](https://github.com/rfkhan123/portfolio.github.io/blob/main/Alg
  User connections in social media apps form the backbone of social interactions, allowing users to connect, follow, friend, or network with one another. These connections are critical for content sharing, communication, and community building within the app. Understanding and managing user connections is key to enhancing user engagement and ensuring a robust social experience. 
 
 ### BFS
-[Breadth-First Search]((https://github.com/rfkhan123/portfolio.github.io/blob/main/Algorithm_Implementations/BFS.cpp)  is a fundamental graph traversal algorithm used extensively to explore user connections in social media apps. In the context of social media, users can be represented as nodes in a graph, and connections as edges. BFS is particularly useful for tasks that involve exploring the shortest path between users, discovering all connections at a certain degree of separation, and analyzing the structure of user networks. 
+[Breadth-First Search](https://github.com/rfkhan123/portfolio.github.io/blob/main/Algorithm_Implementations/BFS.cpp)  is a fundamental graph traversal algorithm used extensively to explore user connections in social media apps. In the context of social media, users can be represented as nodes in a graph, and connections as edges. BFS is particularly useful for tasks that involve exploring the shortest path between users, discovering all connections at a certain degree of separation, and analyzing the structure of user networks. 
 
 ## Identifying Influencers
  Identifying influencers in social media apps is crucial for understanding which users have significant impact and reach within the network. Influencers drive engagement, spread content, and shape trends. To identify these key individuals, algorithms such as PageRank and centrality measures are employed. 
