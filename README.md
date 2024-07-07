@@ -16,43 +16,43 @@
 <p>Content personalization in social media apps tailors content to user preferences and behaviors using collaborative filtering and content-based filtering, enhancing engagement, satisfaction, and retention through relevant, customized experiences.</p>
 
 ### Collaborative Filtering
-<p>Collaborative filtering is a method used to personalize content by leveraging the preferences and behaviors of similar users. It operates on the principle that users who have agreed on items in the past will agree in the future. </p>
+<p>[Collaborative filtering](https://github.com/rfkhan123/portfolio.github.io/blob/main/Algorithm_Implementations/Collabarative_Filtering.cpp} is a method used to personalize content by leveraging the preferences and behaviors of similar users. It operates on the principle that users who have agreed on items in the past will agree in the future. </p>
 
 ### Content-Based Filtering
-<p>Content-based filtering personalizes content by analyzing the attributes of the items themselves and recommending items similar to those the user has liked in the past. This method relies on the characteristics of the content rather than the preferences of other users.</p>
+<p>[Content-based](https://github.com/rfkhan123/portfolio.github.io/blob/main/Algorithm_Implementations/Content_Filtering.cpp) filtering personalizes content by analyzing the attributes of the items themselves and recommending items similar to those the user has liked in the past. This method relies on the characteristics of the content rather than the preferences of other users.</p>
 
 ## Content Delivery
 <p>Efficient content delivery in social media apps is crucial for user experience. Algorithms like A*, Dijkstra's, and Kruskal's optimize content delivery paths, database queries, and network design, ensuring quick, relevant, and cost-effective content access.</p>
 
 ### A* Algorithm
-<p>The A* algorithm is used for finding the shortest path in a weighted graph, which can be useful in optimizing content delivery networks (CDNs) and data retrieval.</p>
+<p>The [A* algorithm](https://github.com/rfkhan123/portfolio.github.io/blob/main/Algorithm_Implementations/A_star).cpp is used for finding the shortest path in a weighted graph, which can be useful in optimizing content delivery networks (CDNs) and data retrieval.</p>
 
 ### Dijkstra's Algorithm
-<p>Dijkstra's algorithm is another shortest-path algorithm that finds the minimum distance between nodes in a graph. It can be particularly useful for optimizing data storage and retrieval in databases.</p>
+<p>[Dijkstra's algorithm](https://github.com/rfkhan123/portfolio.github.io/blob/main/Algorithm_Implementations/Dijkstra.cpp) is another shortest-path algorithm that finds the minimum distance between nodes in a graph. It can be particularly useful for optimizing data storage and retrieval in databases.</p>
 
 ### Kruskal's Algorithm
-<p>Kruskal's algorithm is used to find the minimum spanning tree (MST) of a graph. This is useful for network design and ensuring efficient connectivity in distributed systems.</p>
+<p>[Kruskal's algorithm](https://github.com/rfkhan123/portfolio.github.io/blob/main/Algorithm_Implementations/Kruskal.cpp) is used to find the minimum spanning tree (MST) of a graph. This is useful for network design and ensuring efficient connectivity in distributed systems.</p>
 
 ## Keyword Detection
 <p>Keyword detection in social media apps involves identifying specific words or phrases within user-generated content, such as posts, comments, and messages. This is essential for content moderation, targeted advertising, and enhancing user engagement by categorizing and recommending content based on detected keywords.</p>
 
 ### Aho-Corasick Algorithm
-<p>The Aho-Corasick algorithm is an efficient method for searching multiple keywords simultaneously within a text. It builds a finite state machine (FSM) that processes the input text in linear time, making it highly suitable for real-time keyword detection in social media applications.</p>
+<p>The [Aho-Corasick algorithm](https://github.com/rfkhan123/portfolio.github.io/blob/main/Algorithm_Implementations/Aho_Corasick.cpp) is an efficient method for searching multiple keywords simultaneously within a text. It builds a finite state machine (FSM) that processes the input text in linear time, making it highly suitable for real-time keyword detection in social media applications.</p>
 
 ## Priority Ranking of Feed
 <p>Priority ranking in social media refers to the system used to determine the order in which content is displayed to users. This is crucial for enhancing user engagement and ensuring relevant content is shown at the top of feeds. Various algorithms and methods are employed to prioritize content based on multiple factors such as user interactions, content quality, and relevance.</p>
 
 ### Head-Based Priority Ranking
-<p>Head-based priority ranking is a technique where the "head" of the content distribution (i.e., the most popular or high-priority items) is given precedence. This approach leverages the popularity and engagement metrics of content to rank it higher, ensuring that the most significant and relevant posts are seen first by users.</p>
+<p>[Head-based priority ranking](https://github.com/rfkhan123/portfolio.github.io/blob/main/Algorithm_Implementations/Head_Based_priority.cpp) is a technique where the "head" of the content distribution (i.e., the most popular or high-priority items) is given precedence. This approach leverages the popularity and engagement metrics of content to rank it higher, ensuring that the most significant and relevant posts are seen first by users.</p>
 
 ## Search features
 <p>Search features in social media apps allow users to find specific content, users, hashtags, and topics quickly and efficiently. These features are essential for enhancing user engagement, enabling users to discover new content, connect with others, and stay updated on topics of interest.</p>
 
 ### Tries
-<p>A trie (prefix tree) is a highly efficient data structure used for fast retrieval of strings, making it ideal for implementing search features in social media apps. Tries can significantly improve the speed and accuracy of search operations, especially for autocomplete and prefix-based search functionalities.</p>
+<p>[A trie](https://github.com/rfkhan123/portfolio.github.io/blob/main/Algorithm_Implementations/Tries.cpp) is a highly efficient data structure used for fast retrieval of strings, making it ideal for implementing search features in social media apps. Tries can significantly improve the speed and accuracy of search operations, especially for autocomplete and prefix-based search functionalities.</p>
 
 ### Inverted Indexes
-<p>Inverted indexes are a powerful data structure used in social media apps to enable efficient full-text search capabilities. They facilitate quick retrieval of documents (e.g., posts, comments, messages) that contain specific keywords or phrases. This is essential for features like search bars, hashtag tracking, content discovery, and more.</p>
+<p>[Inverted indexes](https://github.com/rfkhan123/portfolio.github.io/blob/main/Algorithm_Implementations/Inverted_Index.cpp) are a powerful data structure used in social media apps to enable efficient full-text search capabilities. They facilitate quick retrieval of documents (e.g., posts, comments, messages) that contain specific keywords or phrases. This is essential for features like search bars, hashtag tracking, content discovery, and more.</p>
 
 ## User Connections
 <p>User connections in social media apps form the backbone of social interactions, allowing users to connect, follow, friend, or network with one another. These connections are critical for content sharing, communication, and community building within the app. Understanding and managing user connections is key to enhancing user engagement and ensuring a robust social experience.</p>
