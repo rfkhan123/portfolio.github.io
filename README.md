@@ -16,7 +16,7 @@
  Content personalization in social media apps tailors content to user preferences and behaviors using collaborative filtering and content-based filtering, enhancing engagement, satisfaction, and retention through relevant, customized experiences. 
 
 ### Collaborative Filtering
-[Collaborative filtering](https://github.com/rfkhan123/portfolio.github.io/main/Algorithm_Implementations/Collabarative_Filtering.cpp)is a method used to personalize content by leveraging the preferences and behaviors of similar users. It operates on the principle that users who have agreed on items in the past will agree in the future.
+[Collaborative filtering](https://github.com/rfkhan123/portfolio.github.io/main/Algorithm_Implementations/Collabarative_Filtering.cpp) is a method used to personalize content by leveraging the preferences and behaviors of similar users. It operates on the principle that users who have agreed on items in the past will agree in the future.
 
 ### Content-Based Filtering
 [Content-based filtering](https://github.com/rfkhan123/portfolio.github.io/blob/main/Algorithm_Implementations/Content_Filtering.cpp)  personalizes content by analyzing the attributes of the items themselves and recommending items similar to those the user has liked in the past. This method relies on the characteristics of the content rather than the preferences of other users.
