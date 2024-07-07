@@ -19,7 +19,7 @@
 [Collaborative filtering](https://github.com/rfkhan123/portfolio.github.io/main/Algorithm_Implementations/Collabarative_Filtering.cpp)is a method used to personalize content by leveraging the preferences and behaviors of similar users. It operates on the principle that users who have agreed on items in the past will agree in the future.
 
 ### Content-Based Filtering
-[Content-based](https://github.com/rfkhan123/portfolio.github.io/blob/main/Algorithm_Implementations/Content_Filtering.cpp) filtering personalizes content by analyzing the attributes of the items themselves and recommending items similar to those the user has liked in the past. This method relies on the characteristics of the content rather than the preferences of other users.
+[Content-based filtering](https://github.com/rfkhan123/portfolio.github.io/blob/main/Algorithm_Implementations/Content_Filtering.cpp)  personalizes content by analyzing the attributes of the items themselves and recommending items similar to those the user has liked in the past. This method relies on the characteristics of the content rather than the preferences of other users.
 
 ## Content Delivery
  Efficient content delivery in social media apps is crucial for user experience. Algorithms like A*, Dijkstra's, and Kruskal's optimize content delivery paths, database queries, and network design, ensuring quick, relevant, and cost-effective content access. 
