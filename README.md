@@ -59,3 +59,12 @@
 
 ### BFS
 <p>Breadth-First Search is a fundamental graph traversal algorithm used extensively to explore user connections in social media apps. In the context of social media, users can be represented as nodes in a graph, and connections as edges. BFS is particularly useful for tasks that involve exploring the shortest path between users, discovering all connections at a certain degree of separation, and analyzing the structure of user networks.</p>
+
+## Identifying Influencers
+<p>Identifying influencers in social media apps is crucial for understanding which users have significant impact and reach within the network. Influencers drive engagement, spread content, and shape trends. To identify these key individuals, algorithms such as PageRank and centrality measures are employed.</p>
+
+### PageRank Algorithms
+<p>PageRank is an algorithm initially developed by Google to rank web pages in search engine results. It can also be applied to social media networks to identify influential users. The idea is that the importance of a user is determined by the number and quality of connections they have.</p>
+
+### Centrality Algorithms
+<p>Centrality measures help determine the most important nodes (users) in a network. Different centrality metrics provide various insights into user influence.</p>
