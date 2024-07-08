@@ -1,7 +1,6 @@
 from collections import defaultdict, namedtuple
 from itertools import combinations
 
-# Node definition for the FP-Tree
 class FPNode:
     def __init__(self, item, count, parent):
         self.item = item
@@ -10,7 +9,6 @@ class FPNode:
         self.children = {}
         self.next = None
 
-# FP-Growth algorithm class
 class FPGrowth:
     def __init__(self, min_support):
         self.min_support = min_support
@@ -18,7 +16,6 @@ class FPGrowth:
         self.transactions = []
         self.freq_patterns = []
 
-    # Function to build FP-Tree from transactions
     def build_fp_tree(self):
         self.item_counts = defaultdict(int)
         header_table = defaultdict(int)
@@ -42,7 +39,6 @@ class FPGrowth:
         
         return root, header_table
 
-    # Function to insert nodes into FP-Tree
     def insert_node(self, parent_node, item, header_table):
         if item in parent_node.children:
             child_node = parent_node.children[item]
@@ -61,7 +57,6 @@ class FPGrowth:
 
         return child_node
 
-    # Function to mine frequent patterns recursively
     def mine_patterns(self, root, header_table, prefix):
         for item, node in sorted(header_table.items(), key=lambda x: -self.item_counts[x[0]]):
             new_prefix = prefix.copy()
@@ -80,7 +75,6 @@ class FPGrowth:
             if conditional_tree:
                 self.mine_patterns(conditional_tree, conditional_header, new_prefix)
 
-    # Function to retrieve path from node to root
     def get_path(self, node):
         path = []
         while node.parent.item:
@@ -89,7 +83,6 @@ class FPGrowth:
         path.reverse()
         return path
 
-    # Function to build conditional FP-Tree
     def build_conditional_tree(self, conditional_pattern_base):
         transactions = []
         for pattern, count in conditional_pattern_base:
@@ -97,7 +90,6 @@ class FPGrowth:
         self.transactions = transactions
         return self.build_fp_tree()
 
-    # Function to find frequent patterns using FP-Growth algorithm
     def find_frequent_patterns(self, transactions):
         self.transactions = transactions
         root, header_table = self.build_fp_tree()
@@ -107,7 +99,6 @@ class FPGrowth:
         self.mine_patterns(root, header_table, [])
         return self.freq_patterns
 
-# Example usage
 if __name__ == "__main__":
     transactions = [
         ["bread", "milk", "vegetables"],
