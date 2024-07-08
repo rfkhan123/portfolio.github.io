@@ -16,6 +16,14 @@ Social media platforms have revolutionized digital communication by enabling use
 As of May 2024, there are 5.04 billion social media users worldwide, which is 62% of the world's population. As of 2024, the average daily social media usage of internet users worldwide amounted to 143 minutes per day. To increase the users dependency on social media platforms we make use of many different data structures and algorithms to increase time spent per day on social media apps.
 
 
+# Objectives
+1. Personalize user experiences through tailored content recommendations based on user preferences and behaviors.
+2. Optimize content delivery to ensure quick and relevant access to information and updates.
+3. Improve the identification and targeting of user interests and trends for more effective content promotion.
+4. Prioritize and display content in feeds based on user interactions and relevance, maximizing engagement.
+5. Enable seamless user interaction and community building through efficient group management and user connection strategies.
+
+
 ## 1. Content Personalization
  Content personalization in social media apps tailors content to user preferences and behaviors using collaborative filtering and content-based filtering, enhancing engagement, satisfaction, and retention through relevant, customized experiences. 
 
