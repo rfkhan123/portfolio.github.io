@@ -69,7 +69,7 @@ vector<Edge> kruskal(vector<Edge>& edges, int n) {
 }
 
 int main() {
-    int n = 4; // Number of nodes
+    int n = 4;
     vector<Edge> edges = {
         Edge(0, 1, 10),
         Edge(0, 2, 6),
@@ -80,7 +80,6 @@ int main() {
 
     vector<Edge> mst = kruskal(edges, n);
 
-    // Output the MST edges and their weights
     cout << "Edges in the Minimum Spanning Tree:" << endl;
     for (const Edge& edge : mst) {
         cout << edge.u << " - " << edge.v << " : " << edge.weight << endl;
