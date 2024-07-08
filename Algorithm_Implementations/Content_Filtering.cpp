@@ -2,11 +2,10 @@
 #include <vector>
 #include <cmath>
 #include <unordered_map>
-#include <algorithm> // Include for sort function
+#include <algorithm> 
 
 using namespace std;
 
-// Function to calculate the cosine similarity between two items
 double cosine_similarity(const vector<double>& item1, const vector<double>& item2) {
     double dotProduct = 0, normA = 0, normB = 0;
     for (size_t i = 0; i < item1.size(); ++i) {
@@ -16,8 +15,6 @@ double cosine_similarity(const vector<double>& item1, const vector<double>& item
     }
     return dotProduct / (sqrt(normA) * sqrt(normB));
 }
-
-// Function to recommend items to a user based on their liked items
 vector<int> recommend_items(const vector<vector<double>>& itemFeatures, const vector<int>& likedItems, int numRecommendations) {
     unordered_map<int, double> itemScores;
     for (const int& likedItem : likedItems) {
@@ -30,11 +27,8 @@ vector<int> recommend_items(const vector<vector<double>>& itemFeatures, const ve
             }
         }
     }
-
-    // Convert unordered_map to vector of pairs
     vector<pair<int, double>> sortedItems(itemScores.begin(), itemScores.end());
 
-    // Sort vector of pairs based on the second element (score)
     sort(sortedItems.begin(), sortedItems.end(), [](const pair<int, double>& a, const pair<int, double>& b) {
         return b.second < a.second;
     });
@@ -48,8 +42,6 @@ vector<int> recommend_items(const vector<vector<double>>& itemFeatures, const ve
 }
 
 int main() {
-    // Example item feature matrix
-    // Rows represent items, columns represent features
     vector<vector<double>> itemFeatures = {
         {1, 0, 0, 1},
         {0, 1, 1, 0},
@@ -58,8 +50,8 @@ int main() {
         {1, 0, 1, 0}
     };
 
-    vector<int> likedItems = {0, 2}; // Items liked by the user
-    int numRecommendations = 3; // Number of recommendations desired
+    vector<int> likedItems = {0, 2}; 
+    int numRecommendations = 3; 
 
     vector<int> recommendations = recommend_items(itemFeatures, likedItems, numRecommendations);
 
