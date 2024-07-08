@@ -14,7 +14,10 @@
 # Introduction
 Social media platforms have revolutionized digital communication by enabling users to connect, share content, and interact globally. The evolution of these platforms is driven by advanced algorithms and data analytics, which enhance user experience through personalized content delivery, efficient management of user interactions, and predictive modeling for engagement strategies.
 As of May 2024, there are 5.04 billion social media users worldwide, which is 62% of the world's population. As of 2024, the average daily social media usage of internet users worldwide amounted to 143 minutes per day. To increase the users dependency on social media platforms we make use of many different data structures and algorithms to increase time spent per day on social media apps.
-![Introduction to Social Media](https://github.com/rfkhan123/portfolio.github.io/blob/main/image/a_star.png)
+
+<p align="center">
+  <img src="https://github.com/rfkhan123/portfolio.github.io/blob/main/image/intro_social.png" alt="Introduction to Social Media">
+</p>
 
 
 # Objectives
