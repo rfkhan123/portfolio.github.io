@@ -58,6 +58,7 @@ The [A* algorithm](https://github.com/rfkhan123/portfolio.github.io/blob/main/Al
 [Kruskal's algorithm](https://github.com/rfkhan123/portfolio.github.io/blob/main/Algorithm_Implementations/Kruskal.cpp)  is used to find the minimum spanning tree (MST) of a graph. This is useful for network design and ensuring efficient connectivity in distributed systems. 
 
 | Algorithm                | Time Complexity     | Space Complexity     |
+|--------------------------|---------------------|----------------------|
 | A* Algorithm             | O((V + E) log V)    | O(V + E)             |
 | Dijkstra's Algorithm     | O(V^2) or O(E log V)| O(V)                 |
 | Kruskal's Algorithm      | O(E log V)          | O(V + E)             |
@@ -73,6 +74,7 @@ The [A* algorithm](https://github.com/rfkhan123/portfolio.github.io/blob/main/Al
 </p>
 
 | Algorithm                | Time Complexity     | Space Complexity     |
+|--------------------------|---------------------|----------------------|
 | Aho-Corasick Algorithm   | O(n + m + z)        | O(m)                 |
 
 ## 4. Priority Ranking of Feed
@@ -82,6 +84,7 @@ The [A* algorithm](https://github.com/rfkhan123/portfolio.github.io/blob/main/Al
 [Head-based priority ranking](https://github.com/rfkhan123/portfolio.github.io/blob/main/Algorithm_Implementations/Head_Based_priority.cpp)  is a technique where the "head" of the content distribution (i.e., the most popular or high-priority items) is given precedence. This approach leverages the popularity and engagement metrics of content to rank it higher, ensuring that the most significant and relevant posts are seen first by users. 
 
 | Algorithm                | Time Complexity     | Space Complexity     |
+|--------------------------|---------------------|----------------------|
 | Head-Based Priority      | O(n log n)          | O(n)                 |
 
 ## 5. Search features
@@ -94,6 +97,7 @@ The [A* algorithm](https://github.com/rfkhan123/portfolio.github.io/blob/main/Al
 [Inverted indexes](https://github.com/rfkhan123/portfolio.github.io/blob/main/Algorithm_Implementations/Inverted_Index.py)  are a powerful data structure used in social media apps to enable efficient full-text search capabilities. They facilitate quick retrieval of documents (e.g., posts, comments, messages) that contain specific keywords or phrases. This is essential for features like search bars, hashtag tracking, content discovery, and more. 
 
 | Algorithm                | Time Complexity     | Space Complexity     |
+|--------------------------|---------------------|----------------------|
 | Tries                    | O(m)                | O(m)                 |
 | Inverted Indexes         | O(n)                | O(n)                 |
 
@@ -104,6 +108,7 @@ The [A* algorithm](https://github.com/rfkhan123/portfolio.github.io/blob/main/Al
 [Breadth-First Search](https://github.com/rfkhan123/portfolio.github.io/blob/main/Algorithm_Implementations/BFS.cpp)  is a fundamental graph traversal algorithm used extensively to explore user connections in social media apps. In the context of social media, users can be represented as nodes in a graph, and connections as edges. BFS is particularly useful for tasks that involve exploring the shortest path between users, discovering all connections at a certain degree of separation, and analyzing the structure of user networks. 
 
 | Algorithm                | Time Complexity     | Space Complexity     |
+|--------------------------|---------------------|----------------------|
 | BFS                      | O(V + E)            | O(V)                 |
 
 ## 7. Identifying Influencers
@@ -116,6 +121,7 @@ The [A* algorithm](https://github.com/rfkhan123/portfolio.github.io/blob/main/Al
  Centrality measures help determine the most important nodes (users) in a network. Different centrality metrics provide various insights into user influence. 
 
  | Algorithm                | Time Complexity     | Space Complexity     |
+ |--------------------------|---------------------|----------------------|
  | PageRank Algorithm       | O(V + E)            | O(V)                 |
  | Centrality Algorithms    | O(V^2)              | O(V)                 |
 
@@ -130,6 +136,7 @@ The [A* algorithm](https://github.com/rfkhan123/portfolio.github.io/blob/main/Al
 </p>
 
 | Algorithm                | Time Complexity     | Space Complexity     |
+|--------------------------|---------------------|----------------------|
 | K-Means Clustering       | O(n * k * I * d)    | O(n * k + d)         |
 
 ## 9. Community Detection
@@ -139,6 +146,7 @@ The [A* algorithm](https://github.com/rfkhan123/portfolio.github.io/blob/main/Al
 The [Common Neighbor](https://github.com/rfkhan123/portfolio.github.io/blob/main/Algorithm_Implementations/Common_Neighbours.cpp) algorithm enhances social network analysis by identifying mutual connections between users, predicting potential friendships, fostering community building, and detecting influential users and social clusters within social media platforms.
 
 | Algorithm                | Time Complexity     | Space Complexity     |
+|--------------------------|---------------------|----------------------|
 | Common Neighbor          | O(n + m)            | O(n + m)             |
 
 ## 10. Efficient Group Management
@@ -148,6 +156,7 @@ The [Common Neighbor](https://github.com/rfkhan123/portfolio.github.io/blob/main
 The [Union-Find algorithm](https://github.com/rfkhan123/portfolio.github.io/blob/main/Algorithm_Implementations/Union_Find.cpp) is a data structure that efficiently handles the union and find operations on disjoint sets. In the context of social media apps, it can be used to manage user groups by quickly determining which group a user belongs to and merging groups when necessary. 
 
 | Algorithm                | Time Complexity     | Space Complexity     |
+|--------------------------|---------------------|----------------------|
 | Union-Find Algorithm     | O(log n) (amortized)| O(n)                 |
 
 ## 11. Push Notification 
@@ -162,6 +171,7 @@ enhance predictive analysis by forecasting user engagement, recommending content
 </p>
 
 | Algorithm                | Time Complexity     | Space Complexity     |
+|--------------------------|---------------------|----------------------|
 | Random Forest            | O(n * sqrt(d))      | O(n)                 |
 
 ## 12. Behavioral Analysis and Gamification
@@ -174,6 +184,7 @@ enhance predictive analysis by forecasting user engagement, recommending content
 [The FP-Growth algorithm](https://github.com/rfkhan123/portfolio.github.io/blob/main/Algorithm_Implementations/FP_Growth.py) is an efficient method for frequent itemset mining that avoids candidate generation, making it faster than Apriori for large datasets. It uses a compressed representation of the dataset called an FP-tree. 
 
 | Algorithm                | Time Complexity     | Space Complexity     |
+|--------------------------|---------------------|----------------------|
 | Apriori Algorithm        | O(2^n) * O(n)       | O(2^n)               |
 | FP-Growth Algorithm      | O(n * (m + d))      | O(m + d)             |
 
@@ -184,4 +195,5 @@ Infinite scrolling is a popular feature in social media apps that automatically 
 [Markov Chains](https://github.com/rfkhan123/portfolio.github.io/blob/main/Algorithm_Implementations/Markov_Chain.py) are stochastic models that describe a sequence of possible events in which the probability of each event depends only on the state attained in the previous event. In the context of content prefetching for social media apps, Markov Chains can be used to predict the next piece of content a user is likely to view based on their current browsing behavior.
 
 | Algorithm                | Time Complexity     | Space Complexity     |
+|--------------------------|---------------------|----------------------|
 | Markov Chains            | O(n^2)              | O(n)                 |
