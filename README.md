@@ -102,3 +102,9 @@ enhance predictive analysis by forecasting user engagement, recommending content
 
 ### FP-Growth Algorithm
 [The FP-Growth algorithm](https://github.com/rfkhan123/portfolio.github.io/blob/main/Algorithm_Implementations/FP_Growth.py)   is an efficient method for frequent itemset mining that avoids candidate generation, making it faster than Apriori for large datasets. It uses a compressed representation of the dataset called an FP-tree. 
+
+## 13. Infinite Scrolling
+Infinite scrolling is a popular feature in social media apps that automatically loads more content as users scroll down the page, eliminating the need for pagination and providing a seamless browsing experience. 
+
+### Markov Chains
+Markov Chains are stochastic models that describe a sequence of possible events in which the probability of each event depends only on the state attained in the previous event. In the context of content prefetching for social media apps, Markov Chains can be used to predict the next piece of content a user is likely to view based on their current browsing behavior.
