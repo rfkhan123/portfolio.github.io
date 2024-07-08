@@ -37,10 +37,9 @@ vector<int> dijkstra(const vector<vector<pii>>& graph, int start, int n) {
 }
 
 int main() {
-    int n = 5; // Number of nodes
-    int start = 0; // Starting node
+    int n = 5;
+    int start = 0; 
 
-    // Example graph representation: adjacency list with weights
     vector<vector<pii>> graph(n);
     graph[0].push_back({1, 4});
     graph[0].push_back({2, 1});
@@ -50,8 +49,6 @@ int main() {
     graph[3].push_back({4, 3});
 
     vector<int> shortest_paths = dijkstra(graph, start, n);
-
-    // Output shortest paths from the start node
     cout << "Shortest paths from node " << start << ":" << endl;
     for (int i = 0; i < n; ++i) {
         cout << "Node " << i << ": ";
