@@ -12,13 +12,13 @@ class PageRank {
 public:
     void add_edge(int from, int to) {
         outgoing_links[from].push_back(to);
-        incoming_links[to].push_back(from); // for directed graph
+        incoming_links[to].push_back(from); 
     }
 
     void initialize_rank() {
         for (auto& pair : outgoing_links) {
             int node = pair.first;
-            rank[node] = 1.0; // Initialize all ranks to 1.0
+            rank[node] = 1.0; 
         }
     }
 
@@ -29,7 +29,7 @@ public:
         for (int iter = 0; iter < iterations; ++iter) {
             for (auto& pair : rank) {
                 int node = pair.first;
-                double new_pr = (1 - damping_factor); // Random teleportation probability
+                double new_pr = (1 - damping_factor); 
                 for (int incoming_node : incoming_links[node]) {
                     int num_outgoing_links = outgoing_links[incoming_node].size();
                     new_pr += damping_factor * rank[incoming_node] / num_outgoing_links;
@@ -58,7 +58,7 @@ int main() {
     pr.add_edge(3, 2);
 
     pr.initialize_rank();
-    pr.compute_pagerank(20, 0.85); // Run PageRank algorithm with 20 iterations and damping factor 0.85
+    pr.compute_pagerank(20, 0.85);
     pr.print_pagerank();
 
     return 0;
