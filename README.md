@@ -50,7 +50,7 @@ As of May 2024, there are 5.04 billion social media users worldwide, which is 62
 The [A* algorithm](https://github.com/rfkhan123/portfolio.github.io/blob/main/Algorithm_Implementations/A_star.cpp) is used for finding the shortest path in a weighted graph, which can be useful in optimizing content delivery networks (CDNs) and data retrieval.
 
 <p align="center">
-  <img src="https://github.com/rfkhan123/portfolio.github.io/blob/main/image/a_star.png" alt="A* Algorithm" width="600" height="400">
+  <img src="https://raw.githubusercontent.com/Codecademy/docs/main/media/a-star-tree-8.png" alt="A* Algorithm" width="600" height="400">
 </p>
 ### Dijkstra's Algorithm
 [Dijkstra's algorithm](https://github.com/rfkhan123/portfolio.github.io/blob/main/Algorithm_Implementations/Dijkstra.cpp)  is another shortest-path algorithm that finds the minimum distance between nodes in a graph. It can be particularly useful for optimizing data storage and retrieval in databases. 
@@ -71,7 +71,7 @@ The [A* algorithm](https://github.com/rfkhan123/portfolio.github.io/blob/main/Al
  The  [Aho-Corasick algorithm](https://github.com/rfkhan123/portfolio.github.io/blob/main/Algorithm_Implementations/Aho_Corasick.cpp)  is an efficient method for searching multiple keywords simultaneously within a text. It builds a finite state machine (FSM) that processes the input text in linear time, making it highly suitable for real-time keyword detection in social media applications. 
 
  <p align="center">
-  <img src="https://github.com/rfkhan123/portfolio.github.io/blob/main/image/aho_corasick.png" alt="Aho Corasick Algorithm" width="600" height="400">
+  <img src="https://media.geeksforgeeks.org/wp-content/uploads/20200810153254/ahocorasick21.png" alt="Aho Corasick Algorithm" width="600" height="400">
 </p>
 
 | Algorithm                | Time Complexity     | Space Complexity     |
@@ -133,7 +133,7 @@ The [A* algorithm](https://github.com/rfkhan123/portfolio.github.io/blob/main/Al
 [K-Means Clustering](https://github.com/rfkhan123/portfolio.github.io/blob/main/Algorithm_Implementations/K_Means.py) aids engagement network analysis by grouping users with similar interaction patterns, identifying communities, revealing engagement trends, and enabling targeted content strategies to enhance user experience and increase overall platform engagement.
 
 <p align="center">
-  <img src="https://github.com/rfkhan123/portfolio.github.io/blob/main/image/k_means.png" alt="K-Means Clustering" width="600" height="400">
+  <img src="https://static.javatpoint.com/tutorial/machine-learning/images/k-means-clustering-algorithm-in-machine-learning.png" alt="K-Means Clustering" width="600" height="400">
 </p>
 
 | Algorithm                | Time Complexity     | Space Complexity     |
@@ -168,7 +168,7 @@ The [Union-Find algorithm](https://github.com/rfkhan123/portfolio.github.io/blob
 enhance predictive analysis by forecasting user engagement, recommending content, analyzing sentiments, detecting trends and fraud, and assessing content quality, thereby improving user experiences and platform security.
 
 <p align="center">
-  <img src="https://github.com/rfkhan123/portfolio.github.io/blob/main/image/random_forest.jpg" alt="Random Forest Algorithm" width="600" height="400">
+  <img src="https://miro.medium.com/v2/resize:fit:592/1*i0o8mjFfCn-uD79-F1Cqkw.png" alt="Random Forest Algorithm" width="600" height="400">
 </p>
 
 | Algorithm                | Time Complexity     | Space Complexity     |
