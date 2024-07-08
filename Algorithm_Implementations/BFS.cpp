@@ -11,7 +11,7 @@ class Graph {
 public:
     void add_edge(int u, int v) {
         adj_list[u].push_back(v);
-        adj_list[v].push_back(u); // for undirected graph
+        adj_list[v].push_back(u); 
     }
 
     void bfs(int start) {
