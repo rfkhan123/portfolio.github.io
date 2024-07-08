@@ -2,7 +2,6 @@
 #include <unordered_map>
 using namespace std;
 
-// TrieNode class definition
 class TrieNode {
 public:
     unordered_map<char, TrieNode*> children;
@@ -13,7 +12,6 @@ public:
     }
 };
 
-// Trie class definition
 class Trie {
     TrieNode* root;
 
@@ -21,8 +19,6 @@ public:
     Trie() {
         root = new TrieNode();
     }
-
-    // Insert a word into the trie
     void insert(string word) {
         TrieNode* current = root;
         for (char ch : word) {
@@ -34,7 +30,6 @@ public:
         current->isEndOfWord = true;
     }
 
-    // Search for a word in the trie
     bool search(string word) {
         TrieNode* current = root;
         for (char ch : word) {
@@ -46,7 +41,6 @@ public:
         return current != nullptr && current->isEndOfWord;
     }
 
-    // Check if any word starts with the given prefix
     bool startsWith(string prefix) {
         TrieNode* current = root;
         for (char ch : prefix) {
@@ -59,21 +53,16 @@ public:
     }
 };
 
-// Main function to test the Trie implementation
 int main() {
     Trie trie;
-
-    // Insert some words into the trie
     trie.insert("apple");
     trie.insert("application");
     trie.insert("apply");
     trie.insert("banana");
 
-    // Search for words in the trie
     cout << "Searching for 'apple': " << (trie.search("apple") ? "Found" : "Not Found") << endl;
     cout << "Searching for 'app': " << (trie.search("app") ? "Found" : "Not Found") << endl;
 
-    // Check if words start with a prefix
     cout << "Words starting with 'app': " << (trie.startsWith("app") ? "Exist" : "Do not exist") << endl;
     cout << "Words starting with 'xyz': " << (trie.startsWith("xyz") ? "Exist" : "Do not exist") << endl;
 
