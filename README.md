@@ -43,6 +43,9 @@ As of May 2024, there are 5.04 billion social media users worldwide, which is 62
 ### A* Algorithm
 The [A* algorithm](https://github.com/rfkhan123/portfolio.github.io/blob/main/Algorithm_Implementations/A_star.cpp) is used for finding the shortest path in a weighted graph, which can be useful in optimizing content delivery networks (CDNs) and data retrieval.
 
+<p align="center">
+  <img src="https://github.com/rfkhan123/portfolio.github.io/blob/main/image/a_star.png" alt="A* Algorithm">
+</p>
 ### Dijkstra's Algorithm
 [Dijkstra's algorithm](https://github.com/rfkhan123/portfolio.github.io/blob/main/Algorithm_Implementations/Dijkstra.cpp)  is another shortest-path algorithm that finds the minimum distance between nodes in a graph. It can be particularly useful for optimizing data storage and retrieval in databases. 
 
@@ -54,6 +57,10 @@ The [A* algorithm](https://github.com/rfkhan123/portfolio.github.io/blob/main/Al
 
 ### Aho-Corasick Algorithm
  The  [Aho-Corasick algorithm](https://github.com/rfkhan123/portfolio.github.io/blob/main/Algorithm_Implementations/Aho_Corasick.cpp)  is an efficient method for searching multiple keywords simultaneously within a text. It builds a finite state machine (FSM) that processes the input text in linear time, making it highly suitable for real-time keyword detection in social media applications. 
+
+ <p align="center">
+  <img src="https://github.com/rfkhan123/portfolio.github.io/blob/main/image/aho_corasick.png" alt="Aho Corasick Algorithm">
+</p>
 
 ## 4. Priority Ranking of Feed
  Priority ranking in social media refers to the system used to determine the order in which content is displayed to users. This is crucial for enhancing user engagement and ensuring relevant content is shown at the top of feeds. Various algorithms and methods are employed to prioritize content based on multiple factors such as user interactions, content quality, and relevance. 
@@ -91,6 +98,10 @@ The [A* algorithm](https://github.com/rfkhan123/portfolio.github.io/blob/main/Al
 ### K-Means Clustering
 [K-Means Clustering](https://github.com/rfkhan123/portfolio.github.io/blob/main/Algorithm_Implementations/K_Means.py) aids engagement network analysis by grouping users with similar interaction patterns, identifying communities, revealing engagement trends, and enabling targeted content strategies to enhance user experience and increase overall platform engagement.
 
+<p align="center">
+  <img src="https://github.com/rfkhan123/portfolio.github.io/blob/main/image/k_means.png" alt="K-Means Clustering">
+</p>
+
 ## 9. Community Detection
  Community detection in social media apps involves identifying groups of users who interact more frequently with each other than with the rest of the network. These communities represent clusters of users with common interests, activities, or relationships. Detecting such communities is crucial for targeted marketing, personalized content delivery, and enhancing user experience by fostering meaningful interactions. 
 
@@ -109,6 +120,10 @@ The [Union-Find algorithm](https://github.com/rfkhan123/portfolio.github.io/blob
 ### Random Forest
 [Random forest](https://github.com/rfkhan123/portfolio.github.io/blob/main/Algorithm_Implementations/Random_Forest.py)  
 enhance predictive analysis by forecasting user engagement, recommending content, analyzing sentiments, detecting trends and fraud, and assessing content quality, thereby improving user experiences and platform security.
+
+<p align="center">
+  <img src="https://github.com/rfkhan123/portfolio.github.io/blob/main/image/random_forest.jpg" alt="Random Forest Algorithm">
+</p>
 
 ## 12. Behavioral Analysis and Gamification
  Behavioral analysis and gamification are powerful techniques used in social media to enhance user engagement, retention, and overall experience. Behavioral analysis involves understanding user actions and preferences, while gamification leverages game-like elements to motivate and reward user participation. 
