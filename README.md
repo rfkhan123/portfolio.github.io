@@ -27,6 +27,7 @@ As of May 2024, there are 5.04 billion social media users worldwide, which is 62
 4. Prioritize and display content in feeds based on user interactions and relevance, maximizing engagement.
 5. Enable seamless user interaction and community building through efficient group management and user connection strategies.
 
+# Business Cases
 
 ## 1. Content Personalization
  Content personalization in social media apps tailors content to user preferences and behaviors using collaborative filtering and content-based filtering, enhancing engagement, satisfaction, and retention through relevant, customized experiences. 
