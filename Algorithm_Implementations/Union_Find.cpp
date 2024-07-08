@@ -13,19 +13,16 @@ public:
         parent.resize(n);
         rank.resize(n, 0);
         for (int i = 0; i < n; ++i) {
-            parent[i] = i; // Each element is its own parent initially
+            parent[i] = i; 
         }
     }
-
-    // Find operation with path compression
     int find(int u) {
         if (parent[u] != u) {
-            parent[u] = find(parent[u]); // Path compression
+            parent[u] = find(parent[u]); 
         }
         return parent[u];
     }
 
-    // Union operation by rank
     void unionSet(int u, int v) {
         int rootU = find(u);
         int rootV = find(v);
@@ -41,26 +38,22 @@ public:
             }
         }
     }
-
-    // Check if two elements are in the same set
     bool isConnected(int u, int v) {
         return find(u) == find(v);
     }
 };
 
 int main() {
-    int n = 6; // Number of elements
+    int n = 6;
     UnionFind uf(n);
 
-    // Perform union operations
     uf.unionSet(0, 1);
     uf.unionSet(1, 2);
     uf.unionSet(3, 4);
     uf.unionSet(4, 5);
 
-    // Check connectivity
-    cout << "Is 0 connected to 2? " << (uf.isConnected(0, 2) ? "Yes" : "No") << endl; // Should print Yes
-    cout << "Is 1 connected to 5? " << (uf.isConnected(1, 5) ? "Yes" : "No") << endl; // Should print No
+    cout << "Is 0 connected to 2? " << (uf.isConnected(0, 2) ? "Yes" : "No") << endl;
+    cout << "Is 1 connected to 5? " << (uf.isConnected(1, 5) ? "Yes" : "No") << endl; 
 
     return 0;
 }
