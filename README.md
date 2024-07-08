@@ -16,7 +16,7 @@ Social media platforms have revolutionized digital communication by enabling use
 As of May 2024, there are 5.04 billion social media users worldwide, which is 62% of the world's population. As of 2024, the average daily social media usage of internet users worldwide amounted to 143 minutes per day. To increase the users dependency on social media platforms we make use of many different data structures and algorithms to increase time spent per day on social media apps.
 
 <p align="center">
-  <img src="https://github.com/rfkhan123/portfolio.github.io/blob/main/image/intro_social.webp" alt="Introduction to Social Media">
+  <img src="https://github.com/rfkhan123/portfolio.github.io/blob/main/image/intro_social.webp" alt="Introduction to Social Media" width="300" height="200">
 </p>
 
 
@@ -44,7 +44,7 @@ As of May 2024, there are 5.04 billion social media users worldwide, which is 62
 The [A* algorithm](https://github.com/rfkhan123/portfolio.github.io/blob/main/Algorithm_Implementations/A_star.cpp) is used for finding the shortest path in a weighted graph, which can be useful in optimizing content delivery networks (CDNs) and data retrieval.
 
 <p align="center">
-  <img src="https://github.com/rfkhan123/portfolio.github.io/blob/main/image/a_star.png" alt="A* Algorithm">
+  <img src="https://github.com/rfkhan123/portfolio.github.io/blob/main/image/a_star.png" alt="A* Algorithm" width="300" height="200">
 </p>
 ### Dijkstra's Algorithm
 [Dijkstra's algorithm](https://github.com/rfkhan123/portfolio.github.io/blob/main/Algorithm_Implementations/Dijkstra.cpp)  is another shortest-path algorithm that finds the minimum distance between nodes in a graph. It can be particularly useful for optimizing data storage and retrieval in databases. 
@@ -59,7 +59,7 @@ The [A* algorithm](https://github.com/rfkhan123/portfolio.github.io/blob/main/Al
  The  [Aho-Corasick algorithm](https://github.com/rfkhan123/portfolio.github.io/blob/main/Algorithm_Implementations/Aho_Corasick.cpp)  is an efficient method for searching multiple keywords simultaneously within a text. It builds a finite state machine (FSM) that processes the input text in linear time, making it highly suitable for real-time keyword detection in social media applications. 
 
  <p align="center">
-  <img src="https://github.com/rfkhan123/portfolio.github.io/blob/main/image/aho_corasick.png" alt="Aho Corasick Algorithm">
+  <img src="https://github.com/rfkhan123/portfolio.github.io/blob/main/image/aho_corasick.png" alt="Aho Corasick Algorithm" width="300" height="200">
 </p>
 
 ## 4. Priority Ranking of Feed
@@ -99,7 +99,7 @@ The [A* algorithm](https://github.com/rfkhan123/portfolio.github.io/blob/main/Al
 [K-Means Clustering](https://github.com/rfkhan123/portfolio.github.io/blob/main/Algorithm_Implementations/K_Means.py) aids engagement network analysis by grouping users with similar interaction patterns, identifying communities, revealing engagement trends, and enabling targeted content strategies to enhance user experience and increase overall platform engagement.
 
 <p align="center">
-  <img src="https://github.com/rfkhan123/portfolio.github.io/blob/main/image/k_means.png" alt="K-Means Clustering">
+  <img src="https://github.com/rfkhan123/portfolio.github.io/blob/main/image/k_means.png" alt="K-Means Clustering" width="300" height="200">
 </p>
 
 ## 9. Community Detection
@@ -122,7 +122,7 @@ The [Union-Find algorithm](https://github.com/rfkhan123/portfolio.github.io/blob
 enhance predictive analysis by forecasting user engagement, recommending content, analyzing sentiments, detecting trends and fraud, and assessing content quality, thereby improving user experiences and platform security.
 
 <p align="center">
-  <img src="https://github.com/rfkhan123/portfolio.github.io/blob/main/image/random_forest.jpg" alt="Random Forest Algorithm">
+  <img src="https://github.com/rfkhan123/portfolio.github.io/blob/main/image/random_forest.jpg" alt="Random Forest Algorithm" width="300" height="200">
 </p>
 
 ## 12. Behavioral Analysis and Gamification
