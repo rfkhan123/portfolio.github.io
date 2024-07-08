@@ -1,7 +1,6 @@
 from collections import defaultdict
 from itertools import combinations
 
-# Function to generate candidate itemsets of size k
 def generate_candidates(itemsets, k):
     candidates = set()
     for itemset1 in itemsets:
@@ -10,8 +9,6 @@ def generate_candidates(itemsets, k):
             if len(union) == k:
                 candidates.add(tuple(sorted(union)))
     return candidates
-
-# Function to prune candidate itemsets using the minimum support threshold
 def prune(itemsets, candidates, min_support, transactions):
     item_counts = defaultdict(int)
     frequent_itemsets = []
@@ -28,7 +25,6 @@ def prune(itemsets, candidates, min_support, transactions):
 
     return frequent_itemsets
 
-# Function to generate frequent itemsets using Apriori algorithm
 def apriori(transactions, min_support):
     itemsets = [set(transaction) for transaction in transactions]
     k = 1
@@ -45,8 +41,6 @@ def apriori(transactions, min_support):
         k += 1
 
     return frequent_itemsets
-
-# Example usage
 if __name__ == "__main__":
     transactions = [
         {"bread", "milk", "vegetables"},
