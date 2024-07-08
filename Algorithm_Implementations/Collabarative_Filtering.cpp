@@ -4,8 +4,6 @@
 #include <unordered_map>
 
 using namespace std;
-
-// Function to calculate the Pearson correlation coefficient between two users
 double pearson_correlation(const vector<double>& user1, const vector<double>& user2) {
     double sum1 = 0, sum2 = 0, sum1Sq = 0, sum2Sq = 0, pSum = 0;
     int n = 0;
@@ -29,7 +27,6 @@ double pearson_correlation(const vector<double>& user1, const vector<double>& us
     return (den == 0) ? 0 : num / den;
 }
 
-// Function to predict a user's rating for a specific item based on other users' ratings
 double predict_rating(const vector<vector<double>>& ratings, int user, int item) {
     double totalSim = 0;
     double weightedSum = 0;
@@ -48,8 +45,6 @@ double predict_rating(const vector<vector<double>>& ratings, int user, int item)
 }
 
 int main() {
-    // Example user-item ratings matrix
-    // Rows represent users, columns represent items
     vector<vector<double>> ratings = {
         {4, 0, 0, 5, 1, 0, 0},
         {5, 5, 4, 0, 0, 0, 0},
@@ -57,8 +52,8 @@ int main() {
         {0, 3, 0, 0, 0, 0, 3}
     };
 
-    int user = 0; // User ID for whom we want to predict the rating
-    int item = 1; // Item ID for which we want to predict the rating
+    int user = 0; 
+    int item = 1; 
 
     double predictedRating = predict_rating(ratings, user, item);
 
